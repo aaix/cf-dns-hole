@@ -1,0 +1,9 @@
+name = "cf-dns-proxy"
+main = "src/worker.js"
+compatibility_date = "2024-05-08"
+workers_dev = false
+
+[[routes]]
+pattern = "dns.aaix.dev"
+zone_name = "aaix.dev"
+custom_domain = true
